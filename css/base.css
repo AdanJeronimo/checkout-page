@@ -1,0 +1,25 @@
+:root{
+    --negro-suabe:#4E5150;
+    --negro:#333333;
+    --negro-regular:#4F4F4F;
+    --color-border-form:#828282;
+    --color-boton:#e2e2e2;
+    --gris-suabe:#BDBDBD;
+}
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: var(--montserrat);
+    font-weight:600 ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}

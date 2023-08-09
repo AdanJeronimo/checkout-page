@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <title>Checkout page</title>
+  <link rel="stylesheet" href="css/_index.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <h1 class="header__titulo">Checkout</h1>
+    </header>
+
+    <main class="pago">
+
+      <form class="formulario" action="#">
+
+        <div class="formulario__seccion">
+          <legend class="formulario__seccion-titulo">Contact infomation</legend>
+
+          <div class="input-grupo">
+            <label class="input-grupo__titulo" for="email">E-mail</label>
+            <div class="input-grupo__contenido">
+              <img class="input-grupo__icon" src="./icons/mail.svg" alt="icono correo">
+              <input class="input-grupo__input" id="email" type="email" src="img/devchallenges.png"
+                placeholder="Enter your email...">
+            </div>
+          </div>
+
+          <div class="input-grupo">
+            <label class="input-grupo__titulo" for="telefono">Phone</label>
+
+            <div class="input-grupo__contenido">
+              <img class="input-grupo__icon" src="./icons/call.svg" alt="icono correo">
+              <input class="input-grupo__input" id="telefono" type="tel" placeholder="Enter your phone...">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="formulario__seccion">
+          <legend class="formulario__seccion-titulo formulario__seccion-titulo--margin">Shipping address</legend>
+
+          <div class="input-grupo">
+            <label class="input-grupo__titulo" for="nombre">Full name</label>
+            <div class="input-grupo__contenido">
+              <img class="input-grupo__icon" src="./icons/person-circle.svg" alt="icono correo">
+              <input class="input-grupo__input" id="nombre" type="text" value="Rodney Cotton">
+            </div>
+
+          </div>
+
+          <div class="input-grupo">
+            <label class="input-grupo__titulo" for="direccion">Address</label>
+            <div class="input-grupo__contenido">
+              <img class="input-grupo__icon" src="./icons/home.svg" alt="icono correo">
+              <input class="input-grupo__input" id="direccion" type="text" placeholder="Your address..">
+            </div>
+
+          </div>
+
+          <div class="input-grupo">
+            <label class="input-grupo__titulo" for="ciudad">City</label>
+            <div class="input-grupo__contenido">
+              <img class="input-grupo__icon" src="./icons/business.svg" alt="icono correo">
+              <input class="input-grupo__input" id="ciudad" type="text" placeholder="Your city..">
+            </div>
+
+          </div>
+
+
+          <div class="select">
+
+            <div class="select-grupo">
+
+              <label class="select-grupo__titulo" for="pais">Country</label>
+              <div class="select-grupo__contenido">
+                <img class="select-grupo__icon" src="./icons/business.svg" alt="icono correo">
+                <select class="select-grupo__select" name="select">
+                  <option class="select-grupo__opcion" value="value1" selected>Your country..</option>
+                  <option class="select-grupo__opcion" value="value2">Option 1</option>
+                  <option class="select-grupo__opcion" value="value3">Option 2</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="input-grupo">
+              <label class="input-grupo__titulo" for="postal">Postal code</label>
+              <div class="input-grupo__contenido">
+                <img class="input-grupo__icon" src="./icons/logo-bitbucket.svg" alt="icono correo">
+                <input class="input-grupo__input select-grupo__select" id="postal" type="text"
+                  placeholder="Your postal code..">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="check-grupo">
+            <input class="check-grupo__input" id="seleccion" type="checkbox">
+            <label class="check-grupo__detalle" for="seleccion">Save this information for next time</label>
+          </div>
+
+        </div>
+
+        <div class="formulario__btn">
+          <button class="btn">Continue</button>
+        </div>
+
+      </form>
+
+      <section class="productos">
+
+        <article class="producto__articulo">
+          <img class="producto__imagen" src="img/photo1.png" alt="imagen producto">
+
+          <div class="producto__informacion">
+            <p class="producto__titulo">Vintage Backbag</p>
+
+            <div class="producto__precios">
+              <p class="producto__rebaja">$54.99</p>
+              <p class="producto__precio">$94.99</p>
+            </div>
+
+            <div class="botones">
+              <button class="boton__decrementar">–</button>
+              <span class="boton__cantidad">1</span>
+              <button class="boton__incrementar">+</button>
+            </div>
+
+          </div>
+        </article>
+
+        <article class="producto__articulo">
+          <img class="producto__imagen" src="img/photo2.png" alt="imagen producto">
+
+          <div class="producto__informacion">
+            <p class="producto__titulo">Vintage Backbag</p>
+
+            <div class="producto__precios">
+              <p class="producto__rebaja">$54.99</p>
+              <p class="producto__precio">$94.99</p>
+            </div>
+
+            <div class="botones">
+              <button class="boton__decrementar">–</button>
+              <span class="boton__cantidad">1</span>
+              <button class="boton__incrementar">+</button>
+            </div>
+
+          </div>
+        </article>
+
+        <div class="producto__importes">
+          <div class="producto__importe">
+            <p class="producto__importe-titulo">Shipping</p>
+            <p class="producto__importe-precio">$19</p>
+          </div>
+
+          <div class="producto__importe">
+            <p class="producto__importe-titulo">Total</p>
+            <p class="producto__importe-precio">$148.98</p>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p class="footer__derechos-de-autor">Creado por Adan-devChallenges.io</p>
+    </footer>
+
+  </div>
+</body>
+</html>

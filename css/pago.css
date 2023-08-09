@@ -1,0 +1,21 @@
+.pago{
+    grid-column: 3/11;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:5rem;
+}
+
+@media (max-width:768px ) { 
+    .pago{
+        grid-column: 2/12;
+    }
+}
+
+@media (max-width:650px ){
+    .pago{
+        grid-column: 2/5;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

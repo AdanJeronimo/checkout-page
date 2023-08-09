@@ -1,0 +1,16 @@
+:root{
+    --montserrat:Montserrat,sans-serif;
+}
+
+@font-face {
+    font-family: var(--montserrat);
+    src: url("../fonst/Montserrat-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family:var(--montserrat);
+    src: url("../fonst/Montserrat-Bold.ttf");
+    font-weight: 700;
+    font-size: normal;
+
+}

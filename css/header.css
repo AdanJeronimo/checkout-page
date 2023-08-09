@@ -1,0 +1,26 @@
+.header{
+    grid-column: 3/11;
+    margin: 6.4rem 0 5rem 0;
+    padding: 0.5rem;
+}
+.header__titulo{
+    color: var(--negro-suabe);
+    font-size: 3.6rem;
+    line-height: 4.3rem;
+}
+
+@media (max-width:768px ){
+    .header{
+        grid-column: 2/12;
+    }
+    .header__titulo{
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width:650px ){
+    .header{
+        grid-column: 2/3;
+        margin: 3rem 0 2.1rem 0;
+    }
+}

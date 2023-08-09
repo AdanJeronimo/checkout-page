@@ -1,0 +1,136 @@
+.productos {
+    background-color: #f2f2f2;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+.producto__articulo {
+    display: flex;
+    margin-bottom: 3.2rem;
+}
+.producto__informacion {
+    margin-left: 2rem;
+}
+
+.producto__imagen {
+    height: 13.6rem;
+    border-radius: 1.5rem;
+}
+
+.producto__titulo {
+    color: var(--negro-suabe);
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.producto__precios {
+    display: flex;
+}
+
+.producto__rebaja {
+    color: #F2994A;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+.producto__precio {
+    color: var(--negro-suabe);
+    text-decoration: line-through;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid var(--color-border-form);
+    border-radius: 1rem;
+    margin-top: 2.4rem;
+    max-width: 12.3rem;
+    padding: 1.2rem;
+}
+
+.boton__decrementar {
+    background-color: var(--color-boton);
+    border: none;
+    border-radius: 0.5rem;
+    padding:0.5rem 0.7rem ;
+}
+
+.boton__cantidad {
+    font-size: 1.6rem;
+    color: var(--negro);
+}
+
+.boton__incrementar {
+    background-color: var(--color-boton);
+    border: none;
+    border-radius: 0.5rem;
+    padding:0.5rem 0.7rem ;
+}
+
+.producto__importes {
+    margin-top: 9.4rem;
+}
+
+.producto__importe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--gris-suabe);
+    padding: 1rem 0;
+}
+
+.producto__importe-titulo {
+    color: var(--negro);
+    font-size: 1.8rem;
+
+}
+
+.producto__importe-precio {
+    font-size: 1.4rem;
+    color: var(--negro);
+}
+
+@media (max-width:768px) {
+    /* .productos {
+        margin-left: 5rem;
+        height: 43.5rem;
+        width: 28.9rem;
+        padding: 2.5rem;
+        padding: 2.5rem;
+    } */
+    .producto__imagen {
+        height: 10.6rem;
+    }
+    .producto__titulo{
+        font-size: 1.4rem;
+    }
+    /* .botones {
+        width: 10.3rem;
+        height: 4.2rem;
+    } */
+    .producto__importes {
+        margin-top: 6.4rem;
+    }
+    .producto__importe-titulo{
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (max-width:650px) {
+    /* .productos{
+        margin: 0 0 3.9rem 0;
+    } */
+    .productos {
+        min-height: 41.9rem;
+        width: 100%;
+    }
+    .producto__titulo{
+        font-size: 1.4rem;
+    }
+    .producto__rebaja {
+        font-size: 1.4rem;
+    
+    }
+    
+}
